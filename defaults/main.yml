@@ -1,0 +1,5 @@
+
+
+hostname_update: false
+hostname_value: '{{ inventory_hostname }}'
+

@@ -1,0 +1,5 @@
+
+- name: Ensure hostname
+  hostname:
+    name: "{{ hostname_value }}"
+  when: hostname_update
